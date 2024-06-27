@@ -102,13 +102,9 @@ A principal motivação por trás do Menutree é salvar a Terra. Nós usamos mui
 
 - **Crie o seu próprio menu digital** - Utilize uma plataforma online ou um software específico para criar um menu digital para o seu restaurante, permitindo uma gestão fácil e rápida das opções oferecidas.
 
-- **Adicione categorias e itens ao menu** - Organize o menu digital em categorias como entradas, pratos principais, sobremesas e bebidas, e adicione os itens correspondentes a cada categoria, incluindo descrições detalhadas e preços.
-
 - **Adicione imagens aos itens** - Melhore a apresentação dos itens do menu adicionando imagens de alta qualidade, que ajudem a atrair a atenção dos clientes e a aumentar as vendas.
 
 - **Crie um QRCode para o restaurante** - Gere um QRCode único que, quando escaneado, redireciona os clientes diretamente para o menu digital do seu restaurante.
-
-- **Imprima o QRCode e coloque nas mesas** - Distribua os QR Codes impressos de forma estratégica, colocando-os em cada mesa do restaurante, para facilitar o acesso dos clientes ao menu digital.
 
 - **Clientes podem dar scan ao QRCode e ver o menu nos seus telemóveis** - Os clientes podem usar os seus telemóveis para dar scan ao QRCode, proporcionando uma experiência de consulta ao menu rápida e sem contato, melhorando a conveniência e a segurança.
   <br>
@@ -118,7 +114,7 @@ A principal motivação por trás do Menutree é salvar a Terra. Nós usamos mui
 
 # Deployment
 
-Todos os projetos da Blursed são hospedados no Fly.io. Fly dá-nos mais controlo sobre os nossos serviços, privacidade e segurança comparado com outro PaaS, por exemplo, a Vercel
+Todos os projetos da Blursed são hospedados no Fly.io e na Vercel. Isto dá-nos menos controlo sobre os nosso serviços mas temos a certeza que são estáveis e sempre acessíveis, privados e seguros.
 
 Basta criar um container estilo este:
 
