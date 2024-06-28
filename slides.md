@@ -94,7 +94,7 @@ O Menutree é uma plataforma online para restaurantes criarem os seus menus digi
 
 ## Motivação
 
-A principal motivação por trás do Menutree é salvar a Terra. Nós usamos muitos papéis para imprimir os menus e alguns são mandados para o lixo após um único uso. Isso não é sustentável e tem um enorme impacto no meio ambiente.
+A principal motivação por trás do Menutree é ajudar a Terra. Nós usamos muitos papéis para imprimir os menus e alguns são mandados para o lixo após um único uso. Isso não é sustentável e tem um enorme impacto no meio ambiente.
 
 ---
 
@@ -115,30 +115,6 @@ A principal motivação por trás do Menutree é salvar a Terra. Nós usamos mui
 # Deployment
 
 Todos os projetos da Blursed são hospedados no Fly.io e na Vercel. Isto dá-nos menos controlo sobre os nosso serviços mas temos a certeza que são estáveis e sempre acessíveis, privados e seguros.
-
-Basta criar um container estilo este:
-
-```docker {*|1|7|11|13}
-FROM oven/bun:latest # A imagem do runtime Bun
-
-WORKDIR /app
-
-COPY package.json bun.lockb ./
-
-RUN bun install --frozen-lockfile --production # Instalar as dependências
-
-COPY . .
-
-ENV NODE_ENV=production # Definir que o environment em que estamos é de produção
-
-ENTRYPOINT [ "bun", "run", "index.ts" ] # Comando para executar o script
-```
-
-e executarmos um <span v-mark.circle.orange="1">simples</span> comando:
-
-```sh
-$ fly deploy
-```
 
 ---
 
